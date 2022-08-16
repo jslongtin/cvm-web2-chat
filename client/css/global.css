@@ -3,10 +3,15 @@
     padding:0;
     background-color: black;
     color: white;
+    /* font-family: ; */
 }
 body{
     margin: auto;
-    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main{
@@ -17,6 +22,6 @@ body{
     border: 5px solid white;
     border-radius: 1mm;
     text-align: center;
-    vertical-align: middle;
+    padding: 50px;
 }
 

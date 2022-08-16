@@ -15,10 +15,10 @@
     background-position: center;
     overflow: hidden;
 }
+
 .index{
     background-image: url("../img/Backgrounds/9a2aa3ccba5c3bce83e2e3f0a607c147.png");
 }
-
 .box{
     background-color: rgba(0, 0, 0, 0.88);
     margin: auto;

@@ -1,14 +1,8 @@
-themes :
-serie ori
-->undertale
+
+chaque debut de ligne commence par *
 
 
-My_Brain_Is_Broken
-I'mASleeping
-TheHoodedDragon
-SoaringOwl777
-HarnessTheStorm
-averagestudent
+
 
 
 page connection
@@ -16,4 +10,4 @@ page connection
 chat
 
 register
-fill you with determination
+font d'ecran fleurs

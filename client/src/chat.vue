@@ -40,6 +40,7 @@ export default {
     width: 70%;
     text-align: left;
     overflow-y:auto;
+    overflow-x: hidden;
 }
 #members>div,#messages>div{
      background-color: rgba(0, 0, 0, 0.6);
@@ -48,6 +49,7 @@ export default {
     position: relative;
     background-color: rgba(0, 0, 0, 0.6);
     width: 30%;
+    overflow-x: hidden;
  
     height: 100%;
     overflow-y:auto;

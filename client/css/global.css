@@ -5,7 +5,7 @@
     color: white;
     /* font-family: ; */
 }
-.index{
+.index, .chat{
     margin: auto;
     width: 100vw;
     height: 100vh;
@@ -16,8 +16,16 @@
     overflow: hidden;
 }
 
+.chat{
+    background-image: url("../img/Backgrounds/00f1300628365ea62f46b7c578ddff6a.png");
+    background-size: cover;
+    
+}
 .index{
     background-image: url("../img/Backgrounds/9a2aa3ccba5c3bce83e2e3f0a607c147.png");
+}
+.boxchat{
+    background-color: rgba(0, 0, 0, 0.88);
 }
 .box{
     background-color: rgba(0, 0, 0, 0.88);

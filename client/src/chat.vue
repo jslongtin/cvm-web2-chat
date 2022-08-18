@@ -1,11 +1,22 @@
 <template>
-<div id="members" class="boxchat">
-
-</div>
-  <div id="messages" class="boxchat"></div>
-
+    <div id="members">{{members}} allo</div>
+   
+  <div id="messages"></div>
 </template>
 
 <script>
-	
+import memberListUpdate from './page-chat'
+export default {
+    name:"chat",
+  data() {
+    return {
+      members: "ddas"
+    };
+  },
+  methods: {
+    updateMembers: function (tab) {
+      this.members.push(tab);
+    },
+  },
+};
 </script>

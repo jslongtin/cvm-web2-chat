@@ -15,19 +15,28 @@
     background-position: center;
     overflow: hidden;
 }
-
+a{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
 .chat{
     background-image: url("../img/Backgrounds/00f1300628365ea62f46b7c578ddff6a.png");
     background-size: cover;
-    
+    flex-direction: column;
 }
 .index{
     background-image: url("../img/Backgrounds/9a2aa3ccba5c3bce83e2e3f0a607c147.png");
 }
 .boxchat{
     background-color: rgba(0, 0, 0, 0.88);
+    border: 5px solid white;
+    border-radius: 1mm;
+    text-align: center;
+    padding: 30px;
 }
-.box{
+.box {
     background-color: rgba(0, 0, 0, 0.88);
     margin: auto;
     height: 15vh ;
@@ -36,9 +45,15 @@
     border: 5px solid white;
     border-radius: 1mm;
     text-align: center;
-    padding: 50px;
-    
+    padding: 30px; 
 }
-/* .heads{
-
-} */
+#text{
+    width: 80vw;
+    height: 15vh;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.88);
+}
+#vue-container{
+    width: 80vw;
+    height: 40vh;
+}

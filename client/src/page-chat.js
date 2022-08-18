@@ -1,9 +1,10 @@
 import {registerCallbacks, sendMessage, signout, chatMessageLoop} from './chat-api';
+
 import { createApp } from 'vue';
 import App from './chat.vue';
 
 const app = createApp(App)
-app.mount("#vue-container")
+let root = app.mount("#vue-container")
 
 
 window.addEventListener("load", () => {
@@ -14,7 +15,7 @@ window.addEventListener("load", () => {
     registerCallbacks(newMessage, memberListUpdate);
     chatMessageLoop();
     
-    
+
 
 
 })
@@ -28,5 +29,6 @@ const newMessage = (fromUser, message, isPrivate) => {
 // connectés dans votre interface.
 const memberListUpdate = members => {
     console.log(members);
+//    root.updateMembers(members);
 }
 

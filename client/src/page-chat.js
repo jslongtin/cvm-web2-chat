@@ -1,4 +1,10 @@
 import {registerCallbacks, sendMessage, signout, chatMessageLoop} from './chat-api';
+import { createApp } from 'vue';
+import App from './chat.vue';
+
+const app = createApp(App)
+app.mount("#vue-container")
+
 
 window.addEventListener("load", () => {
     document.querySelector("textarea").onkeyup = function (evt) {
@@ -7,6 +13,10 @@ window.addEventListener("load", () => {
     document.querySelector("#sign-out-btn").onclick = signout;
     registerCallbacks(newMessage, memberListUpdate);
     chatMessageLoop();
+    
+
+
+    
 })
 
 // Lorsqu'un nouveau message doit être affiché à l'écran, cette fonction est appelée

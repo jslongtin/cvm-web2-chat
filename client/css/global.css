@@ -56,7 +56,7 @@ a{
 #vue-container{
     width: 80vw;
     height: 40vh;
-    overflow-y: scroll;
+    overflow:hidden;
     display: flex;
     flex-direction: row;
 }

@@ -20,7 +20,7 @@ window.addEventListener("load", () => {
 // Lorsqu'un nouveau message doit être affiché à l'écran, cette fonction est appelée
 const newMessage = (fromUser, message, isPrivate) => {
     console.log(fromUser, message, isPrivate);
-    root.nouveauMessage(fromUser, message, isPrivate);
+    root.nouveauMessage(fromUser, message);
 }
 
 // À chaque 2-3 secondes, cette fonction est appelée. Il faudra donc mettre à jour la liste des membres

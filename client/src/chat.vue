@@ -1,22 +1,23 @@
 <template>
-    <div id="members">{{members}} allo</div>
-   
+  <div id="members">
+    <div v-bind:key="member" v-for="member in members">- {{ member }}</div>
+  </div>
+
   <div id="messages"></div>
 </template>
 
 <script>
-import memberListUpdate from './page-chat'
 export default {
-    name:"chat",
+  name: "chat",
   data() {
     return {
-      members: "ddas"
+      members: [],
     };
   },
   methods: {
-    updateMembers: function (tab) {
+    updateMembers(tab) {
       this.members.push(tab);
     },
   },
-};
+}
 </script>

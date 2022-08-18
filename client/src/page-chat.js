@@ -4,7 +4,7 @@ import { createApp } from 'vue';
 import App from './chat.vue';
 
 const app = createApp(App)
-let root = app.mount("#vue-container")
+ let root = app.mount("#vue-container")
 
 
 window.addEventListener("load", () => {
@@ -15,9 +15,6 @@ window.addEventListener("load", () => {
     registerCallbacks(newMessage, memberListUpdate);
     chatMessageLoop();
     
-
-
-
 })
 
 // Lorsqu'un nouveau message doit être affiché à l'écran, cette fonction est appelée
@@ -29,6 +26,6 @@ const newMessage = (fromUser, message, isPrivate) => {
 // connectés dans votre interface.
 const memberListUpdate = members => {
     console.log(members);
-//    root.updateMembers(members);
+    root.updateMembers(members)
 }
 

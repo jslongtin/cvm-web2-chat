@@ -14,9 +14,9 @@ window.addEventListener("load", () => {
     registerCallbacks(newMessage, memberListUpdate);
     chatMessageLoop();
     
-
-
     
+
+
 })
 
 // Lorsqu'un nouveau message doit être affiché à l'écran, cette fonction est appelée

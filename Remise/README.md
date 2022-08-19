@@ -7,4 +7,4 @@ page acceuil: fait apparetre des etoiles qui tournent sur elles memes aleatoirem
 
 chat: gestion du chat dynamique avec vue(messages et membres).
 
-register : en cliquand sur le chien, cela fait apparetre des chiens qui courent dans le bas de l'ecran 
+register : en cliquant sur le chien, cela fait apparetre des chiens qui courent dans le bas de l'ecran 

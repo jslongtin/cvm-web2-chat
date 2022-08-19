@@ -89,4 +89,5 @@ img{
     width: 70px;
     background-size:cover;
     position: absolute;
+    transform-origin:  center;
 }

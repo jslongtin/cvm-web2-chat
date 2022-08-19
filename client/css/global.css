@@ -1,11 +1,14 @@
 * {
     margin:0;
     padding:0;
-    background-color: rgba(0, 0, 0, 0.88);
+    
     color: white;
     /* font-family: ; */
 }
-.index, .chat{
+input, button{
+    background-color: rgba(0, 0, 0, 0.88);
+}
+.index, .chat, .register{
     margin: auto;
     width: 100vw;
     height: 100vh;
@@ -28,6 +31,11 @@ a{
 }
 .index{
     background-image: url("../img/Backgrounds/9a2aa3ccba5c3bce83e2e3f0a607c147.png");
+}
+.register{
+    background-image: url("../img/Backgrounds/Screenshot-2021-03-22-at-15.03.14.png");
+    background-size: cover;
+  
 }
 .boxchat{
     background-color: rgba(0, 0, 0, 0.88);
@@ -59,4 +67,11 @@ a{
     overflow:hidden;
     display: flex;
     flex-direction: row;
+    
+}
+.dog{
+   background-image: url("../img/sprite sheets/6678d658b4c099e26c077bbc81d0a2e2.gif"); 
+   /* background-position: center; */
+    background-size:cover;
+
 }

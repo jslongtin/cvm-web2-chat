@@ -1,9 +1,11 @@
 * {
     margin:0;
-    padding:0;
-    
+    padding:0;   
     color: white;
-    /* font-family: ; */
+    
+}
+body{
+    overflow: hidden;
 }
 input, button{
     background-color: rgba(0, 0, 0, 0.88);
@@ -33,9 +35,10 @@ a{
     background-image: url("../img/Backgrounds/9a2aa3ccba5c3bce83e2e3f0a607c147.png");
 }
 .register{
-    background-image: url("../img/Backgrounds/Screenshot-2021-03-22-at-15.03.14.png");
+    background-image: url("https://static.wikia.nocookie.net/undertale/images/3/3d/Snowdin_Forest_location_Ruins_door.png/revision/latest/scale-to-width-down/640?cb=20160211162301");
     background-size: cover;
-  
+    
+    
 }
 .boxchat{
     background-color: rgba(0, 0, 0, 0.88);
@@ -79,4 +82,11 @@ img{
     height: 50px;
     width: 50px;
     background-color: transparent;
+}
+.star {
+    background-image: url("../img/sprite sheets/197a5625b2d843f.png");
+    height: 70px;
+    width: 70px;
+    background-size:cover;
+    position: absolute;
 }

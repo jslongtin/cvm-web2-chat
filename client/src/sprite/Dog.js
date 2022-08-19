@@ -1,10 +1,7 @@
 export default class Dog{
     constructor(){
-        let x = screen.width + 10;
-        
-        
-    
-        this.node = document.createElement("div");
+        let x = screen.width + 3;
+      this.node = document.createElement("div");
         this.node.classList.add("dog");
         this.parentNode = document.querySelector(".register");
         this.parentNode.append(this.node);
@@ -15,8 +12,7 @@ export default class Dog{
         this.node.style.left = x + "px";
         this.node.style.bottom = 2 + "px";
         
-        this.speed = -5.0;
-        
+        this.speed = -8.0;
     }
 
     
@@ -32,6 +28,7 @@ export default class Dog{
             this.node.remove();
         }
         
+      
         return alive;
     }
     }
